@@ -1,0 +1,11 @@
+<animation>
+  
+  <image path="./border.bmp"/>
+  
+  <frame>
+    <rect x="0" y="0" w="512" h="3"/>
+    <time ms="1"/>
+  </frame>
+  
+  
+</animation>

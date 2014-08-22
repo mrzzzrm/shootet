@@ -1,0 +1,11 @@
+block_explosion_0.wav - www.imphenzia.com
+block_explosion_1.wav - www.imphenzia.com
+block_explosion_2.wav - www.imphenzia.com
+player_explosion.wav - www.imphenzia.com
+item_rocket.wav - www.audiomicro.com
+item_rapidfire.wav - allmusiclibrary.com
+item_stop.wav - allmusiclibrary.com
+item_bomb.wav - www.imphenzia.com
+accept.wav - freesound.org
+deny.wav - freesound.org
+shot.wav - audiomicro.com

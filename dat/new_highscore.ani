@@ -1,0 +1,10 @@
+<animation>
+  
+  <image path="./new_highscore.bmp"/>
+
+  <frame>
+    <rect x="0" y="0" w="400" h="65"/>
+    <time ms="1"/>
+  </frame>
+  
+</animation>

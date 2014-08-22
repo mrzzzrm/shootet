@@ -1,0 +1,10 @@
+<animation>
+  <image path="./howto_0.png"/>
+  
+  <frame>
+    <rect x="0" y="0" w="800" h="480"/>
+    <time ms="1"/>
+  </frame>
+
+</animation>
+

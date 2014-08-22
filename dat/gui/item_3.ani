@@ -1,0 +1,21 @@
+<animation>
+  
+  <image path="./item_3.bmp"/>
+  
+  <frame>
+    <rect x="0" y="0" w="64" h="64"/>
+    <time ms="200"/>
+  </frame>
+  
+   <frame>
+    <rect x="64" y="0" w="64" h="64"/>
+    <time ms="200"/>
+  </frame>
+  
+   <frame>
+    <rect x="128" y="0" w="64" h="64"/>
+    <time ms="200"/>
+  </frame>
+  
+  
+</animation>

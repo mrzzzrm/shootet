@@ -1,0 +1,59 @@
+[audio]
+   - SoundPlayer: Verifizieren, dass 'channemap[]' Zugriffe in versch. Threads sicher sind.
+   - Track: Title, Interpret [u. Album] Attribute.
+   
+[collision]
+    - Fuer alle 'isCollision()' einfache Varianten ohne Rect und Alignment
+    
+[etc]
+    - platform: Automatische Plattform Erkennung
+
+[error]
+[font]
+    - font::close(): Alle geoeffneten TTF_Font schliessen
+    - ImageFontLabel: Neue Klasse, der Vollstaendigkeit halber
+    - TtfLabel: Mit 'get_sdl_surface()', 'set_sdl_surface()' als Subklasse von Image
+
+[geo]
+    - Circle: 'isCollision' auch ohne Offset und Alignment
+    - Size: Nicht 'getSize' sondern irgendwie 'getArea', oder so. 
+    - Size: Sicherstellen, dass Size * Size = Size geht.
+    - Rect: Vll. doch als Komposition aus Point und Flaeche?
+    - Point/Vektor als Subklasse von Vertex?
+    - const Makros fuer Rect(0, 0, -1, -1) und Size(-1, -1)
+    
+[gfx]
+    - Animation: Kuerzere XML fuer getilte frames
+    - Animation: addFrame() mit default '-1' als index
+    - ColorFading: Schoenere Fehlermeldung, wenn 'setSize' vergessen
+    - Image: SDL_Surface nochmal untersuche, wirklich kein 'setAlpha()' bei RGBA? 
+    - gfx::get_sdl_surface(const Image &image), set_sdl_surface(...): hinzufuegen
+    
+    
+[input]
+	- Mouse/Touchscreen Input
+
+[particle]
+    - >>>Revision<<<
+
+[tmx]
+    - render::Map: Objektsupport reaktivieren    
+    - Alle Attribute AUCH als geo::* verfuegbar machen, auch als 'getSize'(in Tiles), 'getTileSize()' (in Pixel), 
+    
+[util]
+    - Random: Statische Funktion fuer srand()
+    - limit()/in_range(): Grenzen-Datentyp unabhaengig von Wert-Datentyp
+    - Timer: GlobalTicks -> RawTicks
+    - Klasse fuer Encrzption/Decryption von Savestates
+    
+[xml]
+	- Iterieren mit Iterator/ConstIterator
+
+[ETC]
+    - Bei allen Klassen Check auf Selsbtzuweisung in load() u. Copy-Constructor
+    - framework.hpp/cpp -> env2d.hpp/cpp
+    - Alle Targetimages auch wirklich 'Image *target' nennen
+    - Mit etc/platform.hpp Plattform erkennen lassen -> header ueberall rein
+    - env2d::updateScreen()
+    - ENV2D_FULLSCREEN/WINDOWED; ENV2D_SHOW_CURSOR/HIDE_CURSOR
+    - Zuweisungoperator kann man sich sowas von sparen!

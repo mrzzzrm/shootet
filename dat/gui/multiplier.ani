@@ -1,0 +1,11 @@
+<animation>
+  
+  <image path="./multiplier.bmp"/>
+  
+  <frame>
+    <rect x="0" y="0" w="173" h="20"/>
+    <time ms="1"/>
+  </frame>
+  
+  
+</animation>

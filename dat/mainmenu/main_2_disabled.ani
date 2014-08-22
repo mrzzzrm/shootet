@@ -1,0 +1,10 @@
+<animation>
+  
+  <image path="./main_2_disabled.png"/>
+  
+  <frame>
+    <rect x="0" y="0" w="106" h="36"/>
+    <time ms="1"/>
+  </frame>
+
+</animation>

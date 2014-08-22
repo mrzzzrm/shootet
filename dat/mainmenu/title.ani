@@ -1,0 +1,10 @@
+<animation>
+  
+  <image path="./title.png"/>
+  
+  <frame>
+    <rect x="0" y="0" w="689" h="115"/>
+    <time ms="1"/>
+  </frame>
+
+</animation>

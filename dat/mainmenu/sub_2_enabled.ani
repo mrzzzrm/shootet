@@ -1,0 +1,10 @@
+<animation>
+  
+  <image path="./sub_2_enabled.png"/>
+  
+  <frame>
+    <rect x="0" y="0" w="133" h="37"/>
+    <time ms="1"/>
+  </frame>
+
+</animation>

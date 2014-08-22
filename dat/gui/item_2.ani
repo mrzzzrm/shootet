@@ -1,0 +1,11 @@
+<animation>
+  
+  <image path="./item_2.bmp"/>
+  
+  <frame>
+    <rect x="0" y="0" w="64" h="64"/>
+    <time ms="1"/>
+  </frame>
+  
+  
+</animation>

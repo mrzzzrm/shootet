@@ -1,0 +1,25 @@
+<animation>
+  
+  <image path="./cursor.bmp"/>
+  
+  <frame>
+    <rect x="0" y="0" w="32" h="32"/>
+    <time ms="150"/>
+  </frame>
+
+  <frame>
+    <rect x="32" y="0" w="32" h="32"/>
+    <time ms="150"/>
+  </frame>
+  
+   <frame>
+    <rect x="64" y="0" w="32" h="32"/>
+    <time ms="150"/>
+  </frame>
+  
+   <frame>
+    <rect x="32" y="0" w="32" h="32"/>
+    <time ms="150"/>
+  </frame>
+  
+</animation>

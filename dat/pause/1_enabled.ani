@@ -1,0 +1,10 @@
+<animation>
+  
+  <image path="./1_enabled.png"/>
+  
+  <frame>
+    <rect x="0" y="0" w="279" h="45"/>
+    <time ms="1"/>  
+  </frame>
+
+</animation>

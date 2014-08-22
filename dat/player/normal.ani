@@ -1,0 +1,10 @@
+<animation>
+  
+  <image path="./ship.png"/>
+  
+  <frame>
+    <rect x="0" y="0" w="54" h="46"/>
+    <time ms="1"/>
+  </frame>
+
+</animation>

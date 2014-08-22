@@ -1,0 +1,61 @@
+<PXML>
+
+  <package id="shootet.mrz">
+    <version major="1" minor="2" release="1" build="1"/>
+    <author name="mrz"/>
+    <titles>
+      <title lang="en_US">Shootet</title>
+    </titles>
+    <descriptions>
+      <description lang="en_US">Shootet combines the best parts of Galga, Tetris and Tron to create an addictive action puzzler that will keep you coming back for more! 
+The game was created for the 'RIOT Tag-Team Coding Competition'.
+
+Credits go to:
+
+BLACKALiCE (godlikemcx.deviantart.com) for the graphics
+hrmnzr (soundcloud.com/hrmnzr) for the music
+mrz (mrzesn@t-online.de) for code
+  </description>
+    </descriptions>
+  </package>
+
+
+  <application id="shootet.mrz">
+    <exec command="./run.sh"/>
+    <titles>
+      <title lang="en_US">Shootet</title>
+    </titles>
+
+    <title lang="en_US">Shootet</title>
+    
+    <author name="mrz"/>
+    <version major="1" minor="1" release="1" build="1"/>
+    <licenses>
+      <license name="GPLv2"/>
+    </licenses>
+
+  <categories>
+    <category name="Game">
+      <subcategory name="BlocksGame"/>
+    </category>
+   </categories>
+    <descriptions>
+      <description lang="en_US">Shootet combines the best parts of Galga, Tetris and Tron to create an addictive action puzzler that will keep you coming back for more! 
+The game was created for the 'RIOT Tag-Team Coding Competition'.
+
+Credits go to:
+
+BLACKALiCE (godlikemcx.deviantart.com) for the graphics
+hrmnzr (soundcloud.com/hrmnzr) for the music
+mrz (mrzesn@t-online.de) for code
+  </description>
+    </descriptions>
+
+    <previewpics>
+      <pic src="1.png"/>
+      <pic src="2.png"/>
+      <pic src="3.png"/>
+    </previewpics>
+  </application>
+
+</PXML>

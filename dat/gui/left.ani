@@ -1,0 +1,11 @@
+<animation>
+  
+  <image path="./left.bmp"/>
+  
+  <frame>
+    <rect x="0" y="0" w="96" h="480"/>
+    <time ms="1"/>
+  </frame>
+  
+  
+</animation>

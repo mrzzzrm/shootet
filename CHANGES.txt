@@ -1,0 +1,53 @@
+[Alpha 2]
+  - Scenes: Levelintro, levelsuccess, levelfailure, levelquit
+  - Fadings between states
+  - Saved for next level: rockets, score, specials
+  - Highscore backend
+  
+ 
+[Alpha 3]
+  - Player now has a shooting animation
+  - Highscores get displayed in mainmenu
+  
+  
+[Alpha 4]
+  - Deimplemented specials
+  - Implemented items/powerups
+  - Keeps alphachannels 
+  - Implemented mutliplier
+
+
+[Alpha 5]
+  - Particles aren't deleted before they leave the viewport
+  - Nearly all settings exported to config file
+  - Mainmenu is now vertcally orientated
+  - Uses ttfont instead of prerendered
+  
+ 
+[Alpha 6]
+  - Bug: Certain timers didn't get paused when a scene was playing or the level was paused
+  - Multiplier bar effect: Bar empties/fills completly when factor changes
+  - Disabled fadings due to performance problems on the pandora
+  
+  
+[Alpha 7]
+  - Bug: Cursor was placed out of screen.
+  - Press <down> to absorb items faster
+  - Player offset from bottom is now configureable (PLAYER_OFFSET)
+  - Maximum multiplier descrease speed configureable (MULTIPLIER_DESCREASE_SPEED_MAX)
+  - Eruption when the player fails (ERUPTION_TIME_FAILURE)
+  - Rudimentary "New Highscore" screen(LEVEL_SCENE_NEW_HIGHSCORE_*). Needs improvement
+  - Splash screens
+  
+
+[Alpha 8]
+  - Essential sounds
+  - Faster item collection now also possbile one tile left and right
+  - Moving up via pressing <up> is now also possible when moving is stopped(due to item or destruction)
+  - Player is automaticly flying faster if there are no tiles in screen(NO_TILES_IN_SCREEN_SPEED)
+  
+  
+[Beta 1]
+  - Min destruction is required to make the multiplier fill(MULTIPLIER_MIN_DESTRUCTION)
+  - When multiplier bar empties the factor goes back to 1.
+  

@@ -1,0 +1,17 @@
+<highscores>
+  <highscore>
+    <entry score="2" name="Player A"/>
+    <entry score="1" name="Player B"/>
+    <entry score="0" name="Player C"/>
+  </highscore>
+  <highscore>
+    <entry score="2" name="Player C"/>
+    <entry score="1" name="Player B"/>
+    <entry score="0" name="Player A"/>
+  </highscore>
+  <highscore>
+    <entry score="2" name="Player B"/>
+    <entry score="1" name="Player C"/>
+    <entry score="0" name="Player A"/>
+  </highscore>
+</highscores>
