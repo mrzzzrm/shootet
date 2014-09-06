@@ -25,12 +25,17 @@ int main(int argc, char **argv)
   catch(Exception &exception)
   {
     cerr << "Error: " << exception.getDescription() << endl;
-      return 1;
+    return 1;
+  }
+  catch(const std::exception &exception)
+  {
+    cerr << "Error: "  << exception.what() << endl;
+    return 1;
   }
   catch(...)
   {
     cerr << "Unknown error" << endl;
-      return 1;
+    return 1;
   }
 
   return 0;
