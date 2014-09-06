@@ -15,6 +15,8 @@ find_package(SDL_image REQUIRED)
 find_package(SDL_mixer REQUIRED)
 find_package(SDL_ttf REQUIRED)
 
-add_definitions(-DPLATFORM_PANDORA)
+set(PLATFORM "PLATFORM_LINUX" CACHE STRING "Platform to build for (WINDOWS, LINUX, WIZ, PANDORA, CAANOO)")
+
+add_definitions(-D${PLATFORM})
 
 add_subdirectory(src)

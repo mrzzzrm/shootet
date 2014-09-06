@@ -3,14 +3,6 @@
 
 #include "./Game.hpp"
 
-// http://www.file-upload.net/delete-3525304/dn62m.html
-// http://www.file-upload.net/delete-3536811/op6mx.html
-// http://www.file-upload.net/delete-3541297/hbt6gd.html
-// http://www.file-upload.net/delete-3547829/jmhhti.html
-// http://www.file-upload.net/delete-3555912/69w5ht.html
-// http://www.file-upload.net/delete-3566486/ttdgln.html
-// http://www.file-upload.net/delete-3571672/g8bddw.html
-// http://www.file-upload.net/delete-3572962/il9l29.html
 
 using namespace error;
 using namespace std;
