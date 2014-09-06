@@ -185,7 +185,7 @@ int MorphTile::getId() const
   {
     cout << (int)getNode(n);
   }
-  throw error::Exception() << "No such id for nodes "<<(void*)nodes;
+  throw error::Exception() << "No such id for nodes " << std::hex << nodes;
 
 }
 

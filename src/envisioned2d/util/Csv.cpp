@@ -60,9 +60,9 @@ namespace util
     while(true)
     {
       string line;
-      u32 csc; /* Cell start character */
-      u32 end;
-      u32 nl, cr, crnl;
+      size_t csc; /* Cell start character */
+      size_t end;
+      size_t nl, cr, crnl;
 
       /* Split into lines */
         nl = text.find("\n", lsc);
@@ -100,7 +100,7 @@ namespace util
         csc = 0;
         while(true)
         {
-          u32 end = text.npos;
+          size_t end = text.npos;
 
           for(uint s = 0; s < seperators.size(); s++)
           {

@@ -33,12 +33,12 @@ namespace util
 
 
     /* Erase lineendings with '\n' */
-      for(uint c = string.find("\r\n", 0); c != string.npos; c = string.find("\r\n", c))
+      for(size_t c = string.find("\r\n", 0); c != string.npos; c = string.find("\r\n", c))
       {
         string.replace(c, 2, "\n");
         c+=2;
       }
-      for(uint c = string.find("\r", 0); c != string.npos; c = string.find("\r", c))
+      for(size_t c = string.find("\r", 0); c != string.npos; c = string.find("\r", c))
       {
         string.replace(c, 1, "\n");
         c+=1;

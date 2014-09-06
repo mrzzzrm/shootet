@@ -87,8 +87,8 @@ namespace util
 
     for(uint p = 0; p < string.size();)
     {
-      u32 cr = res.find( "\r", p);
-      u32 crnl = res.find("\r\n", p);
+      size_t cr = res.find( "\r", p);
+      size_t crnl = res.find("\r\n", p);
 
       if(cr < crnl)
       {
@@ -119,7 +119,7 @@ namespace util
 
     for(uint p = 0; p < string.size();)
     {
-      u32 ep;
+      size_t ep;
 
       ep = string.find(seperator, p);
       res.push_back(string.substr(p, ep - p));
@@ -140,7 +140,7 @@ namespace util
 
     for(uint p = 0; p < string.size();)
     {
-      u32 ep;
+      size_t ep;
 
       ep = string.find(seperator, p);
       if(ep != p)
